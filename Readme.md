@@ -14,9 +14,9 @@ This file contains of tweet in row, and already clean from stopwords (e.g. a, Th
 1. If you are using Linux/MAC : run `./run_cluster.sh`
 2. If you are usingWindows : run `docker build -t hadoop-base:3.3.1 -f Dockerfile-hadoop . && docker-compose -f docker-compose-hadoop.yml up -d`
 
-# How to run Local MapReduce
+## How to run Local MapReduce
 - There is `wordcount.py` python file in `map_reduce` directory
 - You can run following command in yout terminal : `python3 map_reduce/wordcount.py data/clean_tweets.csv > output.csv`
 
-# Running with Hadoop MapReduce
+## Running with Hadoop MapReduce
 To run this file in Hadoop run this command `python3 map_reduce/ratings_breakdown.py -r hadoop --hadoop-streaming-jar /opt/hadoop-3.3.1/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar data/clean_tweets.csv > output.csv`
