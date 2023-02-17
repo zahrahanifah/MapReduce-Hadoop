@@ -21,7 +21,7 @@ This file contains of tweet in row, and already clean from stopwords (e.g. a, Th
 - You can run following command in yout terminal : `python3 map_reduce/wordcount.py data/clean_tweets.csv > output.csv`
 
 ## Running with Hadoop MapReduce
-To run this file in Hadoop run this command `python3 map_reduce/ratings_breakdown.py -r hadoop --hadoop-streaming-jar /opt/hadoop-3.3.1/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar data/clean_tweets.csv > output.csv`
+To run this file in Hadoop run this command `python3 map_reduce/wordcount.py -r hadoop --hadoop-streaming-jar /opt/hadoop-3.3.1/share/hadoop/tools/lib/hadoop-streaming-3.3.1.jar data/clean_tweets.csv > output.csv`
 
 ### Notes:
 The output from this task still a bit messy (`output.csv`), it is still contain links (e.g. http) and some symbol. 
