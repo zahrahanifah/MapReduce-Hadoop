@@ -4,7 +4,9 @@ On this repo, I'd like to share how to do partition on Elon Musk's Tweets using 
 
 #### Overview about the data : 
 On this repo, we will use `data/clean_tweets.csv` . 
-This file contains of tweet in row, and already clean from stopwords (e.g. a, The, is, are, etc), symbol (e.g. @, #, etc), and basic words/verb which I already removed using NLTK library (You can find how to use NLTK library and how to get `clean_tweets.csv` on this link -> https://github.com/zahrahanifah/TextAnalysis-with-NLTK )
+This file contains of tweet in row, and already clean from stopwords (e.g. a, The, is, are, etc), symbol (e.g. @, #, etc), and basic words/verb which I already removed using NLTK library 
+
+(You can find how to use NLTK library and how to get `clean_tweets.csv` on this link -> https://github.com/zahrahanifah/TextAnalysis-with-NLTK )
 
 ## Download binary
 - Download Apache Hadoop Binary : https://archive.apache.org/dist/hadoop/common/hadoop-3.3.1/hadoop-3.3.1.tar.gz
