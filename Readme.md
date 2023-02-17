@@ -1,4 +1,4 @@
-# Elon Musk Most Tweets About
+# Elon Musk Most Tweet About
 I recently learned about Hadoop-MapReduce. 
 On this repo, I'd like to share how to partition Elon Musk's Tweets using MRJob (MapReduce library in Python). In the end, We will get words within its counts, means we will know what is Elon Musk most tweet about!
 
